@@ -29,7 +29,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Vehicles'
+              $ref: '#/components/schemas/Vehicle'
       responses:
         '200':
           description: Vehicle profile created
@@ -78,7 +78,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Summon'
+                $ref: '#/components/schemas/Summons'
 
 components:
   schemas:
